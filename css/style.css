@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Lato-Medium;
-    src: url('/fonts/lato/fonts/Lato-Medium.ttf');
+    font-family: Lato-Light;
+    src: url('/fonts/lato/fonts/Lato-Light.ttf');
 }
 
 body {
@@ -15,15 +15,22 @@ main section {
 .image {
     position: absolute;
     background-image: url("../images/code_background.png");
-    /*background-repeat: no-repeat;*/
     width: 1366px;
     height: 496px;
 }
 
+.border {
+    position: absolute;
+    top: 174px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 .title_background {
     position: absolute;
-    background: rgba(205, 207, 215, 0.06);
-    /*border: rgba(205, 207, 215, 0.06);*/
+    background-image: url("../images/code_background.png");
+    background-position: center -174px;
     top: 174px;
     width: 100%;
     height: 150px;
@@ -35,11 +42,11 @@ main section {
 }
 
 .title {
-    font-family: Lato-Medium;
-    position: absolute;
-    top: 174px;
-    width: 100%;
+    font-family: Lato-Light;
     font-weight: 100;
+    position: absolute;
+    top: 176px;
+    width: 100%;
     text-align: center;
     font-size: 120px;
     color: #FFFFFF;
