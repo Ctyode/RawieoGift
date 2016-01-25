@@ -63,6 +63,7 @@ main section {
 
 .nav_bar {
     margin-top: 493px;
+    position: fixed;
     position: absolute;
     width: 100%;
     height: 69px;
@@ -117,4 +118,64 @@ li {
     height: 4px;
     background: #ffb367;
     transition: all 0.5s;
+}
+
+#actual {
+    margin-left: 20px;
+    margin-top: 600px;
+     font-family: Roboto-Medium;
+     height: 62px;
+     font-size: 20px;
+     color: rgb(0, 0, 0);
+     text-transform: uppercase;
+     position: absolute;
+     cursor: pointer;
+ }
+
+#about {
+    margin-left: 20px;
+    margin-top: 600px;
+    font-family: Roboto-Medium;
+    height: 62px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: absolute;
+    cursor: pointer;
+}
+
+#gallery {
+    margin-left: 20px;
+    margin-top: 600px;
+    font-family: Roboto-Medium;
+    height: 62px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: absolute;
+    cursor: pointer;
+}
+
+#music {
+    margin-left: 20px;
+    margin-top: 600px;
+    font-family: Roboto-Medium;
+    height: 62px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: absolute;
+    cursor: pointer;
+}
+
+#contacts {
+    margin-left: 20px;
+    margin-top: 600px;
+    font-family: Roboto-Medium;
+    height: 62px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: absolute;
+    cursor: pointer;
 }

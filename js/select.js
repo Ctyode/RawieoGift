@@ -15,3 +15,18 @@ $("ul li").click(function() {
     $(this).addClass('active');
     $(this).find('li').addClass('active');
 });
+
+if($) {
+
+    $('#container > *').hide(0);
+    $('#container #actual').show(0);
+
+    $(".menuElement").click(function() {
+
+        $('#container > *').hide(0)
+
+        var tabID = $(this).data("tab");
+        $('#' + tabID).show(0);
+
+    });
+}
