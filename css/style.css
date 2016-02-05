@@ -1,11 +1,16 @@
 @font-face {
     font-family: Lato-Light;
-    src: url('/fonts/lato/fonts/Lato-Light.woff');
+    src: url('../fonts/lato/fonts/Lato-Light.woff');
+}
+
+@font-face {
+    font-family: Lato-Medium;
+    src: url('../fonts/lato/fonts/Lato-Medium.woff');
 }
 
 @font-face {
     font-family: Roboto-Medium;
-    src: url('/fonts/roboto/RobotoMedium/RobotoMedium.woff');
+    src: url('../fonts/roboto/RobotoMedium/RobotoMedium.woff');
 }
 
 body {
@@ -121,21 +126,21 @@ li {
 }
 
 #actual {
-    margin-left: 20px;
-    margin-top: 600px;
-     font-family: Roboto-Medium;
+     margin-left: 20px;
+     margin-top: 600px;
+     font-family: Lato-Medium;
      height: 62px;
      font-size: 20px;
      color: rgb(0, 0, 0);
      text-transform: uppercase;
      position: absolute;
      cursor: pointer;
- }
+}
 
 #about {
     margin-left: 20px;
     margin-top: 600px;
-    font-family: Roboto-Medium;
+    font-family: Lato-Medium;
     height: 62px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -147,7 +152,7 @@ li {
 #gallery {
     margin-left: 20px;
     margin-top: 600px;
-    font-family: Roboto-Medium;
+    font-family: Lato-Medium;
     height: 62px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -159,7 +164,7 @@ li {
 #music {
     margin-left: 20px;
     margin-top: 600px;
-    font-family: Roboto-Medium;
+    font-family: Lato-Medium;
     height: 62px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -171,7 +176,7 @@ li {
 #contacts {
     margin-left: 20px;
     margin-top: 600px;
-    font-family: Roboto-Medium;
+    font-family: Lato-Medium;
     height: 62px;
     font-size: 20px;
     color: rgb(0, 0, 0);
